@@ -3,7 +3,26 @@
 </nav>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-3 bg-primary text-white">{{categories.length}} 个种类</div>
-    <div class="col-9 bg-success text-white">{{products.length}} 个产品</div>
+    <div class="col-3">
+      {{categories.length}} 个种类
+    <button class="btn btn-block btn-outline-primary" (click)="changeCategory()">全部</button>
+    <button *ngFor="let category of categories" 
+        class="btn btn-block btn-outline-primary"
+        [class.active]="category == selectedCategory"
+        (click)="changeCategory(category)">
+      {{category}}
+    </button>
+    </div>
+    <div class="col-9">
+      <div *ngFor="let product of products" class="card border-primary m-2">
+        <div class="card-body">
+          <h4 class="card-title">
+            {{product.name}}
+            <span class="badge badge-primary float-right">{{product.price | currency:"CNY":"symbol-narrow":"2.2-2"}}</span>
+          </h4>
+          <p class="card-text">{{product.description}}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

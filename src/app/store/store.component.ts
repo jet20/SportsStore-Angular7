@@ -9,16 +9,22 @@ import { Product } from '../model/product.model';
 })
 export class StoreComponent implements OnInit {
 
+  public selectedCategory: string = null;
+
   constructor(private productRepository: ProductRepository) {}
 
   ngOnInit() {
   }
 
   get products(): Product[] {
-    return this.productRepository.getProducts();
+    return this.productRepository.getProducts(this.selectedCategory);
   }
 
   get categories(): string[] {
     return this.productRepository.getCategories();
+  }
+
+  changeCategory(newCategory?: string) {
+    this.selectedCategory = newCategory;
   }
 }
