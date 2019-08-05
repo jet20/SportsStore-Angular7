@@ -2,6 +2,7 @@
 
 # TODO
 - [ ] 安装 bootstrap
+- [ ] 安装 font-awesome
 
 # Angular7
 
