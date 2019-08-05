@@ -8,17 +8,18 @@
 - [x] 安装 font-awesome
 - [x] 安装 josn-server
 - [x] 安装 jsonwebtoken
-- [ ] 启动页面 index.html
-- [ ] 理解各个文件
-  - [ ] main.ts
-  - [ ] app.module.ts
-  - [ ] routing.module.ts
-  - [ ] app.compoment.ts
-- [ ] 数据模型
-  - [ ] product.model.ts
-  - [ ] static.datasource.ts
-  - [ ] product.repository.ts
-  - [ ] model.module.ts
+- [x] 启动页面 index.html
+- [x] 理解各个文件(加载顺序)
+  - [x] index.html
+  - [x] main.ts
+  - [x] app.module.ts
+  - [x] routing.module.ts
+  - [x] app.compoment.ts
+- [x] 数据模型
+  - [x] product-model.ts
+  - [x] static-datasource.ts
+  - [x] product-repository.ts
+  - [x] model.module.ts
 - [ ] store功能
   - [ ] store组件
   - [ ] store模块
