@@ -34,6 +34,11 @@ export class StoreComponent implements OnInit {
     return Array(Math.ceil(total / this.productsPerPage)).fill(0).map((x, i) => i + 1);
   }
 
+  get pageCount(): number {
+    var total = this.productRepository.getProducts(this.selectedCategory).length;
+    return Math.ceil(total / this.productsPerPage);
+  }
+
   changeCategory(newCategory?: string) {
     this.selectedCategory = newCategory;
     this.changePage(1);
