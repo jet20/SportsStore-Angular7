@@ -1,8 +1,34 @@
 # SportsStore 
 
+全民体育用品商店
+
 # TODO
-- [ ] 安装 bootstrap
-- [ ] 安装 font-awesome
+
+- [x] 安装 bootstrap
+- [x] 安装 font-awesome
+- [x] 安装 josn-server
+- [ ] 安装 jsonwebtoken
+- [ ] 启动页面 index.html
+- [ ] 理解各个文件
+  - [ ] main.ts
+  - [ ] app.module.ts
+  - [ ] routing.module.ts
+  - [ ] app.compoment.ts
+- [ ] 数据模型
+  - [ ] product.model.ts
+  - [ ] static.datasource.ts
+  - [ ] product.repository.ts
+  - [ ] model.module.ts
+- [ ] store功能
+  - [ ] store组件
+  - [ ] store模块
+  - [ ] 更新routing模块
+  - [ ] 更新根模块（引入store模块）
+- [ ] 细化store功能
+  - [ ] 显示产品
+  - [ ] 显示种类和选择种类
+  - [ ] 产品分页
+  - [ ] 分页指令
 
 # Angular7
 
