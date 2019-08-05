@@ -20,11 +20,11 @@
   - [x] static-datasource.ts
   - [x] product-repository.ts
   - [x] model.module.ts
-- [ ] store功能
-  - [ ] store组件
-  - [ ] store模块
-  - [ ] 更新routing模块
-  - [ ] 更新根模块（引入store模块）
+- [x] store功能
+  - [x] store组件
+  - [x] store模块
+  - [x] 更新routing模块
+  - [x] 布局store.component.html
 - [ ] 细化store功能
   - [ ] 显示产品
   - [ ] 显示种类和选择种类
