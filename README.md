@@ -7,7 +7,7 @@
 - [x] 安装 bootstrap
 - [x] 安装 font-awesome
 - [x] 安装 josn-server
-- [ ] 安装 jsonwebtoken
+- [x] 安装 jsonwebtoken
 - [ ] 启动页面 index.html
 - [ ] 理解各个文件
   - [ ] main.ts
